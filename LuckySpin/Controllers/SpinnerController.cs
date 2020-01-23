@@ -38,7 +38,7 @@ namespace LuckySpin.Controllers
             if (ModelState.IsValid)
                 return RedirectToAction("Spin", player);
             else
-                return RedirectToAction("Index");
+                return View("Index");
         }
 
         /***
