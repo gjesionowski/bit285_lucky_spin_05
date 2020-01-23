@@ -17,6 +17,7 @@ namespace LuckySpin
         {
             services.AddTransient<LuckySpin.Models.TextTransformService>();
             services.AddMvc();
+            services.AddSingleton<LuckySpin.Models.RepoService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -25,6 +26,7 @@ namespace LuckySpin
             app.UseDeveloperExceptionPage();
             app.UseRouting();
             app.UseEndpoints(endpoints =>
+
             {
                 endpoints.MapControllerRoute(
                      name: "default",
