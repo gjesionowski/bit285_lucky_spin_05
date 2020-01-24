@@ -19,5 +19,8 @@ namespace LuckySpin.Models
         {
             spinRepository.Add(spin);
         }
+
+        
+
     }
 }

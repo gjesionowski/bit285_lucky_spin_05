@@ -5,7 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Views\Spinner\" />
     <Folder Include="Views\Shared\" />
   </ItemGroup>
 </Project>
